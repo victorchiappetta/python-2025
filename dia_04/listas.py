@@ -1,23 +1,32 @@
 # %%
+#lista = conjunto de elementos!
+#listas não são arrays no python!!
 
 # Uma maneira de definir listas
-idades = [28, 42,43, 35,39, 28,38]
+idades = [28, 42, 43, 35, 39, 28, 38]
 print(idades)
 
 # %%
+
+#lista pode ter vários tipos de elementos dentro dela e o exemplo abaixo mostra isso
 teo = ["Téo", "Calvo", 32, True, "Casado", 2342.98]
 print(teo)
 
 # %%
+
+#o tipo dela será... lista!
 type(teo)
 
 # %%
+
+#lembrando que o índice da lista começa em 0 e vai até len-1
 
 # idade
 print(teo[2])
 
 # renda
 print(teo[5])
+
 
 print(teo[0])
 
