@@ -18,5 +18,12 @@ anos:
 
 
 # %%
-valor = juros_compostos(taxa=0.13, anos=5, aporte=1000)
-type(valor)
+##valor = juros_compostos(taxa=0.13, anos=5, aporte=1000)
+##type(valor)
+
+aporte = int(input("digite o aporte:"))
+taxa = float(input("digite a taxa:"))
+anos = int(input("digite os anos:"))
+
+print(juros_compostos(aporte, taxa, anos))
+
